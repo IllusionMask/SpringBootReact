@@ -1,0 +1,68 @@
+spring:
+  profiles: 
+    active:
+      - dev
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/hoaxify_springboot_react_system?useSSL=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      javax:
+        persistence:
+          validation:
+            mode: none
+  data:
+    web:
+      pageable:
+       default-page-size: 10
+       max-page-size: 100
+       
+logging:
+  file:
+    path: C:/Users/Chan Wei XIan/eclipse-workspace/springboot-react-hoaxify-project/logfile/spring.log
+    
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/hoaxify_springboot_react_second_system?useSSL=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  h2:
+    console:
+      enabled: false
+
+hoaxify: 
+  upload-path: uploads-prod 
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+hoaxify: 
+  upload-path: uploads-dev 
+  
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+hoaxify: 
+  upload-path: uploads-test 
+  

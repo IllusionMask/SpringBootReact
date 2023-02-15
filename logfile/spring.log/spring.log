@@ -1,0 +1,27 @@
+2023-02-15 18:43:40.989  INFO 17220 --- [main] c.h.springbootreact.UserControllerTest   : Starting UserControllerTest using Java 1.8.0_311 on LAPTOP-AHP0H96M with PID 17220 (started by Chan Wei XIan in C:\Users\Chan Wei XIan\eclipse-workspace\springboot-react-hoaxify-project)
+2023-02-15 18:43:40.996  INFO 17220 --- [main] c.h.springbootreact.UserControllerTest   : The following 1 profile is active: "test"
+2023-02-15 18:43:41.809  INFO 17220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-15 18:43:41.901  INFO 17220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2023-02-15 18:43:43.220  INFO 17220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-02-15 18:43:43.234  INFO 17220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-15 18:43:43.234  INFO 17220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-15 18:43:43.389  INFO 17220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-15 18:43:43.389  INFO 17220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2367 ms
+2023-02-15 18:43:43.702  INFO 17220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-15 18:43:43.786  INFO 17220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-15 18:43:44.032  INFO 17220 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-15 18:43:44.185  INFO 17220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-15 18:43:44.499  INFO 17220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-15 18:43:44.525  INFO 17220 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-02-15 18:43:45.601  INFO 17220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-15 18:43:45.615  INFO 17220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 18:43:46.838  INFO 17220 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76ffc17c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a8fb023, org.springframework.security.web.context.SecurityContextPersistenceFilter@238ad211, org.springframework.security.web.authentication.logout.LogoutFilter@248d3a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53e28097, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6591f8ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@279c4e3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26d73519, org.springframework.security.web.session.SessionManagementFilter@2fa212df, org.springframework.security.web.access.ExceptionTranslationFilter@78d6c244, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38667005]
+2023-02-15 18:43:46.973  WARN 17220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-15 18:43:48.517  INFO 17220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59002 (http) with context path ''
+2023-02-15 18:43:48.530  INFO 17220 --- [main] c.h.springbootreact.UserControllerTest   : Started UserControllerTest in 7.955 seconds (JVM running for 9.293)
+2023-02-15 18:43:49.312  INFO 17220 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-15 18:43:49.312  INFO 17220 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-15 18:43:49.313  INFO 17220 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-15 18:43:55.122  INFO 17220 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 18:43:55.129  INFO 17220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-15 18:43:55.153  INFO 17220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
